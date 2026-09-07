@@ -9,8 +9,8 @@
 
 <p align="center">
 
-![Econometric](https://img.shields.io/badge/Method%20of%20Moment%20Quantile%20Regression-d1242f)
-![Econometric](https://img.shields.io/badge/Club%20Convergance-1f6feb)
+![Econometric](https://img.shields.io/badge/Econometric-Method%20of%20Moment%20Quantile%20Regression-d1242f)
+![Econometric](https://img.shields.io/badge/Econometric-Club%20Convergance-1f6feb)
 ![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
 ![Countries](https://img.shields.io/badge/Countries-111-8250df)
 
