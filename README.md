@@ -2,17 +2,18 @@
 ### Method of Moments Quantile Regression and Club Convergence
 
 <p align="center">
-  <strong>Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability</strong><br>
-  <em>Method of Moments Quantile Regression and Club Convergence</em>
+  <em></em><br>
+  <em>Thesis Title</em><br>
+  <em>Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability</em><br>
 </p>
 
 <p align="center">
 
-![Degree](https://img.shields.io/badge/Degree-M.Sc.%20in%20Economics-1f6feb)
-![University](https://img.shields.io/badge/University-Ferdowsi%20University%20of%20Mashhad-1f6feb)
+![Econometric](https://img.shields.io/badge/Method%20of%20Moment%20Quantile%20Regression-d1242f)
+![Econometric](https://img.shields.io/badge/Club%20Convergance-1f6feb)
 ![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
 ![Countries](https://img.shields.io/badge/Countries-111-8250df)
-![Method](https://img.shields.io/badge/Method-MMQR%20%2B%20Club%20Convergence-d1242f)
+
 
 </p>
 
