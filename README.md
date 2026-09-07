@@ -9,8 +9,8 @@
 
 <p align="center">
 
-![Econometric](https://img.shields.io/badge/Econometric-Method%20of%20Moment%20Quantile%20Regression-d1242f)
-![Econometric](https://img.shields.io/badge/Econometric-Club%20Convergance-1f6feb)
+![Method1](https://img.shields.io/badge/Method1-Moment%20Quantile%20Regression-d1242f)
+![Method2](https://img.shields.io/badge/Method2-Club%20Convergance-1f6feb)
 ![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
 ![Countries](https://img.shields.io/badge/Countries-111-8250df)
 
@@ -21,7 +21,7 @@
 
 ## 📖 About the Thesis
 
-This repository contains the research materials, empirical analysis, methodology, and thesis document for an **M.Sc. thesis in Economics** investigating the relationship between **Foreign Direct Investment (FDI)**, **Productive Capacity**, country-level risks, and **Resource Sustainability**.
+This repository contains the research materials, empirical analysis, methodology, and thesis document for an **M.Sc. thesis in Economics** investigating the relationship between **Foreign Direct Investment**, **Productive Capacity**, **Economic Risk**, **Financial Risk**, **Political Risk**, and **Resource Sustainability**.
 
 The empirical study examines **111 countries over the period 2000–2021** and focuses on whether economic activity and investment contribute to or undermine resource sustainability.
 
@@ -36,7 +36,7 @@ The analysis incorporates:
 - Economic Risk (**ER**)
 - Financial Risk (**FR**)
 - Political Risk (**PR**)
-- GDP per capita
+- Gross Domestic Product per capita (**GDP**)
 - Material Footprint per capita (**MFP**)
 
 ---
@@ -50,13 +50,60 @@ The analysis incorporates:
 | **University** | Ferdowsi University of Mashhad |
 | **Supervisor** | Dr. Narges Salehnia |
 | **Advisor** | Dr. Fariba Osmani |
-| **Year** | 2024 |
-| **Countries** | 111 |
-| **Study Period** | 2000–2021 |
+| **Published Year** | 2024 |
 
 ### 📄 Full Thesis
 
 **[View Full Thesis →](./thesis/thesis.pdf)**
+
+---
+
+# 🗂️ Repository Structure
+
+```text
+master-thesis-quantitative-econometrics/
+│
+├── 📄 README.md
+│
+├── 📚 thesis/
+│   └── thesis.pdf
+│
+├── 📊 data/
+│   ├── raw/
+│   ├── processed/
+│   └── README.md
+│
+├── 💻 code/
+│   ├── python/
+│   └── stata/
+│
+├── 📓 notebooks/
+│   ├── 01_data_preparation.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_club_convergence.ipynb
+│   ├── 04_panel_diagnostics.ipynb
+│   ├── 05_mmqr.ipynb
+│   └── 06_results_visualization.ipynb
+│
+├── 📈 results/
+│   ├── tables/
+│   └── figures/
+│
+└── 📑 docs/
+    ├── data_sources.md
+    ├── methodology.md
+    └── variable_dictionary.md
+```
+
+---
+
+# 🎯 Research Question
+
+The central research problem can be summarized as:
+
+> **How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and do these effects differ across countries with different levels of resource consumption and risk?**
+
+The study addresses this by combining **cross-country heterogeneity**, **convergence behavior**, and **distributional econometric analysis**.
 
 ---
 
@@ -94,16 +141,6 @@ flowchart LR
     I --> K["Quantile-Specific Effects"]
     K --> L["📊 Results & Policy Implications"]
 ```
-
----
-
-# 🎯 Research Question
-
-The central research problem can be summarized as:
-
-> **How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and do these effects differ across countries with different levels of resource consumption and risk?**
-
-The study addresses this by combining **cross-country heterogeneity**, **convergence behavior**, and **distributional econometric analysis**.
 
 ---
 
@@ -190,60 +227,7 @@ flowchart TD
 
 ---
 
-# 🧪 Step 1 — Data Preparation
-
-The study combines country-level information into a panel dataset covering:
-
-> **111 countries × 2000–2021**
-
-The principal variables are:
-
-| Variable | Role | Description |
-|---|---|---|
-| **MFP** | Dependent variable | Material Footprint per capita |
-| **FDI** | Explanatory variable | Foreign Direct Investment |
-| **PCI** | Explanatory variable | Productive Capacity |
-| **ER** | Risk variable | Economic Risk |
-| **FR** | Risk variable | Financial Risk |
-| **PR** | Risk variable | Political Risk |
-| **GDP** | Control variable | GDP per capita |
-
----
-
-# 📊 Step 2 — Panel Data Diagnostics
-
-Before estimating the main models, the panel structure is examined through a series of diagnostic procedures.
-
-```mermaid
-flowchart LR
-
-    DATA["Panel Dataset"]
-
-    DATA --> CD["Cross-Sectional<br/>Dependence"]
-    DATA --> SH["Slope<br/>Heterogeneity"]
-    DATA --> UR["Panel<br/>Unit Root"]
-    DATA --> CO["Panel<br/>Cointegration"]
-
-    CD --> VALID["Econometric<br/>Model Validation"]
-    SH --> VALID
-    UR --> VALID
-    CO --> VALID
-
-    VALID --> EST["MMQR Estimation"]
-```
-
-### Diagnostic objectives
-
-- **Cross-sectional dependence** → assess whether countries are interdependent.
-- **Slope heterogeneity** → assess whether relationships differ across countries.
-- **Panel unit root** → evaluate the time-series properties of the variables.
-- **Panel cointegration** → investigate long-run relationships.
-
-These diagnostics provide the foundation for the subsequent empirical estimation.
-
----
-
-# 🌍 Step 3 — Club Convergence
+# 🌍 Method 1 — Club Convergence
 
 A key feature of the research is the use of **Club Convergence**.
 
@@ -277,7 +261,7 @@ The resulting clubs are then analyzed separately in order to capture differences
 
 ---
 
-# 📐 Step 4 — Method of Moments Quantile Regression
+# 📐 Method 2 — Method of Moments Quantile Regression
 
 The main econometric technique is **Method of Moments Quantile Regression (MMQR)**.
 
@@ -310,56 +294,6 @@ flowchart TB
 This allows the research to ask a more detailed question:
 
 > Do FDI, productive capacity, risk, and GDP have the same relationship with resource consumption across the distribution?
-
----
-
-# 🔗 Integrated Empirical Strategy
-
-The complete research design can be represented as:
-
-```mermaid
-flowchart TD
-
-    A["🌍 111 Countries<br/>2000–2021"]
-
-    A --> B["📦 Panel Dataset"]
-
-    B --> C["Panel Diagnostics"]
-
-    C --> D["Club Convergence"]
-
-    D --> E1["Club 1<br/>67 Countries"]
-    D --> E2["Club 2<br/>44 Countries"]
-
-    E1 --> F["MMQR"]
-    E2 --> F
-
-    subgraph X["Explanatory Variables"]
-        X1["FDI"]
-        X2["PCI"]
-        X3["Economic Risk"]
-        X4["Financial Risk"]
-        X5["Political Risk"]
-        X6["GDP per Capita"]
-    end
-
-    X1 --> F
-    X2 --> F
-    X3 --> F
-    X4 --> F
-    X5 --> F
-    X6 --> F
-
-    F --> Q["Q10 · Q25 · Q50 · Q75 · Q90"]
-
-    Q --> R["Distributional Effects"]
-
-    R --> S["Robustness Analysis"]
-
-    S --> T["📊 Results"]
-
-    T --> U["💡 Economic & Policy Implications"]
-```
 
 ---
 
@@ -397,45 +331,6 @@ Together, these approaches provide a more granular empirical framework for study
 
 ---
 
-# 🗂️ Repository Structure
-
-```text
-master-thesis-quantitative-econometrics/
-│
-├── 📄 README.md
-│
-├── 📚 thesis/
-│   └── thesis.pdf
-│
-├── 📊 data/
-│   ├── raw/
-│   ├── processed/
-│   └── README.md
-│
-├── 💻 code/
-│   ├── python/
-│   └── stata/
-│
-├── 📓 notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_club_convergence.ipynb
-│   ├── 04_panel_diagnostics.ipynb
-│   ├── 05_mmqr.ipynb
-│   └── 06_results_visualization.ipynb
-│
-├── 📈 results/
-│   ├── tables/
-│   └── figures/
-│
-└── 📑 docs/
-    ├── data_sources.md
-    ├── methodology.md
-    └── variable_dictionary.md
-```
-
----
-
 # 🗃️ Data Sources
 
 The thesis integrates information from several major databases:
@@ -446,51 +341,6 @@ The thesis integrates information from several major databases:
 | **UNCTAD** | Foreign Direct Investment / Productive Capacity |
 | **International Country Risk Guide (ICRG)** | Country Risk |
 | **World Development Indicators (WDI)** | GDP and macroeconomic indicators |
-
----
-
-# 🧮 Variable Map
-
-```mermaid
-flowchart TB
-
-    M["Material Footprint<br/>per Capita"]
-
-    FDI["FDI"]
-    PCI["Productive Capacity"]
-    ER["Economic Risk"]
-    FR["Financial Risk"]
-    PR["Political Risk"]
-    GDP["GDP per Capita"]
-
-    FDI --> M
-    PCI --> M
-    ER --> M
-    FR --> M
-    PR --> M
-    GDP --> M
-
-    M --> Y["Resource Sustainability<br/>Outcome"]
-```
-
----
-
-# 📚 Research Pipeline
-
-For reproducibility, the repository follows a logical progression from raw data to final empirical results:
-
-```mermaid
-flowchart LR
-
-    A["Raw Data"] --> B["Processed Data"]
-    B --> C["Exploratory Analysis"]
-    C --> D["Diagnostics"]
-    D --> E["Club Convergence"]
-    E --> F["MMQR"]
-    F --> G["Robustness"]
-    G --> H["Tables & Figures"]
-    H --> I["Thesis Results"]
-```
 
 ---
 
@@ -520,69 +370,6 @@ sequenceDiagram
 
 ---
 
-# 📊 Results Organization
-
-The empirical results are organized around the main stages of the methodology:
-
-```text
-Results
-│
-├── 01 · Descriptive / Exploratory Analysis
-│
-├── 02 · Panel Diagnostics
-│
-├── 03 · Club Convergence
-│     ├── Club 1
-│     └── Club 2
-│
-├── 04 · MMQR Estimates
-│     ├── Q10
-│     ├── Q25
-│     ├── Q50
-│     ├── Q75
-│     └── Q90
-│
-├── 05 · Robustness Analysis
-│
-└── 06 · Visualization
-```
-
----
-
-# 🧠 Research Logic in One Diagram
-
-```mermaid
-flowchart TB
-
-    START(["Research Problem"])
-
-    START --> QUESTION["How do investment,<br/>productive capacity and risk<br/>relate to resource sustainability?"]
-
-    QUESTION --> DATA["111 Countries<br/>2000–2021"]
-
-    DATA --> DIAG["Panel Diagnostics"]
-
-    DIAG --> CLUB["Club Convergence"]
-
-    CLUB --> CLUB1["Club 1<br/>67 Countries"]
-    CLUB --> CLUB2["Club 2<br/>44 Countries"]
-
-    CLUB1 --> MMQR["MMQR"]
-    CLUB2 --> MMQR
-
-    MMQR --> DIST["Q10 · Q25 · Q50 · Q75 · Q90"]
-
-    DIST --> HET["Heterogeneous Effects"]
-
-    HET --> ROB["Robustness Analysis"]
-
-    ROB --> POLICY["Economic & Policy<br/>Implications"]
-
-    POLICY --> END(["Resource Sustainability"])
-```
-
----
-
 # 📝 Methodological Summary
 
 | Stage | Method / Component | Purpose |
@@ -600,41 +387,19 @@ flowchart TB
 
 ---
 
-# 🌱 Research Contribution
-
-The empirical design provides a framework for examining resource sustainability that goes beyond a single average coefficient.
-
-The combination of:
-
-**Panel Data**  
-↓  
-**Club Convergence**  
-↓  
-**Club-Specific Analysis**  
-↓  
-**MMQR**  
-↓  
-**Quantile-Specific Effects**
-
-allows the research to investigate whether the relationships between investment, productive capacity, country risk, GDP, and resource consumption vary across different groups and levels of resource use.
-
----
-
 # 🔑 Keywords
 
-`Resource Sustainability` · `Material Footprint` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `MMQR` · `Method of Moments Quantile Regression` · `Quantitative Economics` · `Econometrics`
+`Resource Sustainability` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `Method of Moments Quantile Regression`
 
 ---
 
 # 📄 Citation
 
-If you use this repository or thesis in your research, please cite:
+For users of this repository or thesis, the recommended reference is:
 
 ```text
-Mirhaj, Amin (2024).
-The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability:
-Method of Moments Quantile Regression and Club Convergence.
-M.Sc. Thesis, Ferdowsi University of Mashhad.
+Suggested citation:
+Mirhaj, A. (2024). Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence (M.Sc. thesis). Ferdowsi University of Mashhad.
 ```
 
 ---
