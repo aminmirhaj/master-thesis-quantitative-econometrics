@@ -9,8 +9,8 @@
 
 <p align="center">
 
-![Method1](https://img.shields.io/badge/Method1-Moment%20Quantile%20Regression-d1242f)
-![Method2](https://img.shields.io/badge/Method2-Club%20Convergance-1f6feb)
+![Method1](https://img.shields.io/badge/Method 1-Moment%20Quantile%20Regression-d1242f)
+![Method2](https://img.shields.io/badge/Method 2-Club%20Convergance-1f6feb)
 ![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
 ![Countries](https://img.shields.io/badge/Countries-111-8250df)
 
@@ -57,7 +57,7 @@ The study addresses this by combining **cross-country heterogeneity**, **converg
 |---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
-| **University** | Ferdowsi University of Mashhad |
+| **University** | Ferdowsi University |
 | **Supervisor** | Dr. Narges Salehnia |
 | **Advisor** | Dr. Fariba Osmani |
 | **Published Year** | 2024 |
@@ -352,17 +352,6 @@ The thesis integrates information from several major databases:
 # 🔑 Keywords
 
 `Resource Sustainability` · `Foreign Direct Investment` · `Productive Capacity` · `Economic Risk` · `Financial Risk` · `Political Risk` · `Panel Data` · `Club Convergence` · `Method of Moments Quantile Regression`
-
----
-
-# 📄 Citation
-
-For users of this repository or thesis, the recommended reference is:
-
-```text
-Suggested citation:
-Mirhaj, A. (2024). Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence (M.Sc. thesis). Ferdowsi University of Mashhad.
-```
 
 ---
 
