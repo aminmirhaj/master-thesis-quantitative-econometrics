@@ -3,8 +3,8 @@
 
 <p align="center">
   <em></em><br>
-  <em>Thesis Title</em><br>
   <em>Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability</em><br>
+  <em>Method of Moments Quantile Regression and Club Convergence</em><br>
 </p>
 
 ---
