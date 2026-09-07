@@ -64,7 +64,7 @@ The study addresses this by combining **cross-country heterogeneity**, **converg
 
 ### 📄 Full Thesis
 
-**[View Full Thesis →](./thesis/thesis.pdf)**
+**[View Full Thesis →](https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf)**
 
 ---
 
@@ -334,5 +334,5 @@ The thesis integrates information from several major databases:
 </p>
 
 <p align="center">
-  <a href="./thesis/thesis.pdf">📄 Read the Full Thesis</a>
+  <a href="https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf">📄 Read the Full Thesis</a>
 </p>

@@ -13,7 +13,7 @@
 
 The complete thesis is available in PDF format:
 
-**[📖 Read the Full Thesis](./thesis.pdf)**
+**[📖 Read the Full Thesis](https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf)**
 
 ---
 
@@ -192,4 +192,4 @@ Additional tables, figures, methodological materials, and supporting information
 
 For the complete thesis, including the theoretical framework, methodology, empirical analysis, findings, and conclusions:
 
-**[📖 View the Full Thesis PDF](./thesis.pdf)**
+**[📖 View the Full Thesis PDF](https://github.com/aminmirhaj/master-thesis-quantitative-econometrics/blob/main/thesis/full-thesis.pdf)**
