@@ -41,10 +41,19 @@ The analysis incorporates:
 
 ---
 
+# 🎯 Research Question
+
+The central research problem can be summarized as:
+
+> **How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and do these effects differ across countries with different levels of resource consumption and risk?**
+
+The study addresses this by combining **cross-country heterogeneity**, **convergence behavior**, and **distributional econometric analysis**.
+
+---
+
 ## 🎓 Thesis Information
 
 | | |
-|---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
 | **University** | Ferdowsi University of Mashhad |
@@ -97,16 +106,6 @@ master-thesis-quantitative-econometrics/
 
 ---
 
-# 🎯 Research Question
-
-The central research problem can be summarized as:
-
-> **How do Foreign Direct Investment and Productive Capacity affect Resource Sustainability, and do these effects differ across countries with different levels of resource consumption and risk?**
-
-The study addresses this by combining **cross-country heterogeneity**, **convergence behavior**, and **distributional econometric analysis**.
-
----
-
 # 🧭 Research at a Glance
 
 ```mermaid
@@ -141,44 +140,6 @@ flowchart LR
     I --> K["Quantile-Specific Effects"]
     K --> L["📊 Results & Policy Implications"]
 ```
-
----
-
-# 🧩 Conceptual Framework
-
-The conceptual structure of the study is centered on **Material Footprint per capita (MFP)** as the indicator of resource consumption/sustainability.
-
-```mermaid
-flowchart TB
-
-    subgraph ECONOMIC["Economic & Investment Factors"]
-        FDI["Foreign Direct Investment<br/>(FDI)"]
-        PCI["Productive Capacity<br/>(PCI)"]
-        GDP["GDP per Capita"]
-    end
-
-    subgraph RISK["Country Risk"]
-        ER["Economic Risk<br/>(ER)"]
-        FR["Financial Risk<br/>(FR)"]
-        PR["Political Risk<br/>(PR)"]
-    end
-
-    FDI --> MFP["Material Footprint per Capita<br/>(MFP)"]
-    PCI --> MFP
-    GDP --> MFP
-    ER --> MFP
-    FR --> MFP
-    PR --> MFP
-
-    MFP --> S["Resource Sustainability"]
-
-    style MFP stroke-width:3px
-    style S stroke-width:3px
-```
-
-### Core interpretation
-
-The framework does not assume that the relationships are identical for all countries. Instead, the empirical strategy explicitly investigates **heterogeneous effects across the conditional distribution of MFP**.
 
 ---
 
@@ -331,19 +292,6 @@ Together, these approaches provide a more granular empirical framework for study
 
 ---
 
-# 🗃️ Data Sources
-
-The thesis integrates information from several major databases:
-
-| Source | Main Contribution |
-|---|---|
-| **Global Material Flows Database (GMFD)** | Material Footprint |
-| **UNCTAD** | Foreign Direct Investment / Productive Capacity |
-| **International Country Risk Guide (ICRG)** | Country Risk |
-| **World Development Indicators (WDI)** | GDP and macroeconomic indicators |
-
----
-
 # 🔬 Reproducibility Workflow
 
 The intended workflow for reproducing the empirical analysis is:
@@ -367,6 +315,19 @@ sequenceDiagram
     R->>R: Tables & figures
     R->>T: Empirical results
 ```
+
+---
+
+# 🗃️ Data Sources
+
+The thesis integrates information from several major databases:
+
+| Source | Main Contribution |
+|---|---|
+| **Global Material Flows Database (GMFD)** | Material Footprint |
+| **UNCTAD** | Foreign Direct Investment / Productive Capacity |
+| **International Country Risk Guide (ICRG)** | Country Risk |
+| **World Development Indicators (WDI)** | GDP and macroeconomic indicators |
 
 ---
 
@@ -405,7 +366,7 @@ Mirhaj, A. (2024). Investigating the Impact of Foreign Direct Investment and Pro
 ---
 
 <p align="center">
-  <strong>A quantitative investigation of investment, risk, and resource sustainability.</strong>
+  <strong>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</strong>
 </p>
 
 <p align="center">
