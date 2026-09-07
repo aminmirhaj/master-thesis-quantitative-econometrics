@@ -54,6 +54,7 @@ The study addresses this by combining **cross-country heterogeneity**, **converg
 ## 🎓 Thesis Information
 
 | | |
+|---|---|
 | **Author** | Amin Mirhaj |
 | **Degree** | M.Sc. in Economics |
 | **University** | Ferdowsi University of Mashhad |
@@ -366,7 +367,7 @@ Mirhaj, A. (2024). Investigating the Impact of Foreign Direct Investment and Pro
 ---
 
 <p align="center">
-  <strong>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</strong>
+  <em>https://github.com/aminmirhaj/master-thesis-quantitative-econometrics</em>
 </p>
 
 <p align="center">
