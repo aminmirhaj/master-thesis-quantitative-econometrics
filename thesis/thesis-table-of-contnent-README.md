@@ -1,6 +1,11 @@
-# The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability
+# The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability  
+### Method of Moments Quantile Regression and Club Convergence
 
-**Method of Moments Quantile Regression and Club Convergence**
+<p align="center">
+  <em></em><br>
+  <em>Thesis Title</em><br>
+  <em>Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability</em><br>
+</p>
 
 ---
 
