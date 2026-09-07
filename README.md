@@ -1,7 +1,5 @@
 # The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence
 
-Master's thesis investigating the relationship between **Foreign Direct Investment , Productive Capacity , Economic Risk, Financial Risk, Political Risk, and Gross Domestic Product on Resource Sustainability** using panel-data econometrics.
-
 **Full Title:**  
 *Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability: Method of Moments Quantile Regression and Club Convergence*
 
@@ -23,19 +21,21 @@ Dr. Fariba Osmani
 **Year:**  
 2024
 
-**Study:**
-111 countries | 2000–2021
 
 [📄 View Full Thesis](./thesis/thesis.pdf)
 
 
-
-
 ---
+
 
 ## 🎯 Research Overview
 
-???
+This thesis examines whether **Foreign Direct Investment and Productive Capacity** contribute to or undermine **Resource Sustainability**, across **111** countries during **2000–2021**. The core problem is how to support economic development and investment while limiting increasing pressure on natural resources.
+
+The empirical analysis first uses **Club Convergence** to identify groups of countries with similar long-run patterns of resource sustainability. It then applies **Method of Moments Quantile Regression (MMQR)** within the identified clubs to estimate how variables affect different levels of resource consumption, while accounting for **Economic, Financial, and Political Risks and GDP**.
+
+The study therefore focuses on **heterogeneous country-level effects**, rather than relying only on average relationships. Its results aim to provide quantitative evidence for designing investment and development policies that can reconcile **economic growth with sustainable resource use**.
+
 
 ---
 
