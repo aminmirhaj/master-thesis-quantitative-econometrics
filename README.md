@@ -9,8 +9,8 @@
 
 <p align="center">
 
-![Method1](https://img.shields.io/badge/Method 1-Moment%20Quantile%20Regression-d1242f)
-![Method2](https://img.shields.io/badge/Method 2-Club%20Convergance-1f6feb)
+![Method1](https://img.shields.io/badge/Method%201-Moment%20Quantile%20Regression-d1242f)
+![Method2](https://img.shields.io/badge/Method%202-Club%20Convergance-1f6feb)
 ![Period](https://img.shields.io/badge/Period-2000%E2%80%932021-2ea043)
 ![Countries](https://img.shields.io/badge/Countries-111-8250df)
 
