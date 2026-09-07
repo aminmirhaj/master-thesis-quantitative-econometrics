@@ -1,12 +1,27 @@
-# Thesis
+# The Impact of Economic Risk, Financial Risk, and Political Risk on Resource Sustainability  
+### Method of Moments Quantile Regression and Club Convergence
 
-## Research Thesis
-
-This repository contains the complete PDF version of my academic thesis.
-
-The thesis investigates the relationship between **resource sustainability, foreign direct investment, productive capacity, and economic, financial, and political risk**, using empirical econometric approaches including **club convergence** and **moment quantile regression**.
+<p align="center">
+  <em></em><br>
+  <em>Thesis Title</em><br>
+  <em>Investigating the Impact of Foreign Direct Investment and Productive Capacity on Resource Sustainability</em><br>
+</p>
 
 📄 **[Read the Full Thesis (PDF)](./thesis.pdf)**
+
+---
+
+# Thesis Structure
+
+| Chapter   | Title                           | Starting Page |
+| --------- | ------------------------------- | ------------: |
+| Chapter 1 | Research Overview               |             2 |
+| Chapter 2 | Literature Review               |            14 |
+| Chapter 3 | Research Methodology            |            37 |
+| Chapter 4 | Analysis of Findings            |            51 |
+| Chapter 5 | Conclusions and Recommendations |            76 |
+| —         | References                      |            84 |
+| —         | Appendix                        |            91 |
 
 ---
 
@@ -160,30 +175,6 @@ The thesis concludes with the complete list of academic sources and references u
 ## Appendix
 
 Additional materials, tables, and supporting information are provided in the appendix.
-
----
-
-# Thesis Structure
-
-| Chapter   | Title                           | Starting Page |
-| --------- | ------------------------------- | ------------: |
-| Chapter 1 | Research Overview               |             2 |
-| Chapter 2 | Literature Review               |            14 |
-| Chapter 3 | Research Methodology            |            37 |
-| Chapter 4 | Analysis of Findings            |            51 |
-| Chapter 5 | Conclusions and Recommendations |            76 |
-| —         | References                      |            84 |
-| —         | Appendix                        |            91 |
-
----
-
-# Repository Structure
-
-```text
-.
-├── README.md
-└── thesis.pdf
-```
 
 ---
 
