@@ -76,7 +76,7 @@ master-thesis-quantitative-econometrics/
 ├── 📄 README.md
 │
 ├── 📚 thesis/
-│   └── thesis.pdf
+│   └── thesis.pdf ???
 │
 ├── 📊 data/
 │   ├── raw/
@@ -89,11 +89,9 @@ master-thesis-quantitative-econometrics/
 │
 ├── 📓 notebooks/
 │   ├── 01_data_preparation.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_club_convergence.ipynb
-│   ├── 04_panel_diagnostics.ipynb
-│   ├── 05_mmqr.ipynb
-│   └── 06_results_visualization.ipynb
+│   ├── 02_club_convergence_with_r.ipynb
+│   ├── 03_club01_stata_commands_and_methodology.ipynb
+│   └── 04_club02_stata_commands_and_methodology.ipynb
 │
 ├── 📈 results/
 │   ├── tables/
