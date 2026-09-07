@@ -293,32 +293,6 @@ Together, these approaches provide a more granular empirical framework for study
 
 ---
 
-# 🔬 Reproducibility Workflow
-
-The intended workflow for reproducing the empirical analysis is:
-
-```mermaid
-sequenceDiagram
-
-    participant D as Data
-    participant P as Preparation
-    participant E as Econometrics
-    participant R as Results
-    participant T as Thesis
-
-    D->>P: Raw datasets
-    P->>P: Clean & integrate
-    P->>E: Panel dataset
-    E->>E: Diagnostics
-    E->>E: Club convergence
-    E->>E: MMQR estimation
-    E->>R: Estimates
-    R->>R: Tables & figures
-    R->>T: Empirical results
-```
-
----
-
 # 🗃️ Data Sources
 
 The thesis integrates information from several major databases:
